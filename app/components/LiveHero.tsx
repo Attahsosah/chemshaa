@@ -115,7 +115,7 @@ export default function LiveHero() {
 
       </div>
 
-      {/* Bottom information */}
+      {/* Bottom information
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -127,7 +127,7 @@ export default function LiveHero() {
           <span className="h-1 w-1 rounded-full bg-white/30" />
           <span>ON AIR</span>
         </div>
-      </motion.div>
+      </motion.div> */}
 
     </section>
   );

@@ -29,7 +29,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="absolute left-1/2 -translate-x-1/2">
-          <h1 className="font-serif text-2xl font-bold tracking-tight text-black md:text-3xl">
+          <h1 className="font-serif text-[25px] font-bold tracking-[-0.03em] text-black md:text-3xl">
             ChemShaa
           </h1>
         </div>
@@ -41,11 +41,13 @@ export default function Navbar() {
           </button>
 
           <button
-            aria-label="Menu"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-black text-white md:hidden"
-          >
-            <span className="text-lg">☰</span>
-          </button>
+            aria-label="Open menu"
+            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full  md:hidden"
+            >
+            <span className="h-1 w-1 rounded-full bg-black" />
+            <span className="h-1 w-1 rounded-full bg-black" />
+            <span className="h-1 w-1 rounded-full bg-black" />
+            </button>
         </div>
       </div>
     </motion.header>
